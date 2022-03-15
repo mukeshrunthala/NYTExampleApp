@@ -1,0 +1,6 @@
+module Pods_NYTExampleApp {
+  umbrella header "Pods-NYTExampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
