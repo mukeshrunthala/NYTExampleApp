@@ -2,7 +2,7 @@
 
 import Foundation
 
-fileprivate let api_key = "kGaXKm4tGuocYEYmxZHA5QqOFNAtCG1o"
+fileprivate let api_key = "kGaXKm4tGuocYEYmxZHA5QqOFNAtCG1o" // App key provided by NYT 
 
 
 class APIService : ServiceProtocol {
@@ -12,7 +12,7 @@ class APIService : ServiceProtocol {
             completion(articles)
         })
     }
-    
+// This function is fetchinng data from the NYT api
     private func loadData(_ completion: @escaping ([PopularArticle]?) -> Void) {
         
         let url = URLConstants.popular_arical_url

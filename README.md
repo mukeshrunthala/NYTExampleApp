@@ -21,7 +21,7 @@ Step 2: Go to report navigator in xcode and click on covrage
 
 I have used MVVM design pattern and Swift programming language.
  
-## Tools And Library Used
+# Tools And Library Used
 - Xcode as a IDE
 - Cocoa Pods to Install Dependencies 
 - Kingfisher Library to load in images from url
