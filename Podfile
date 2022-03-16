@@ -4,5 +4,9 @@
 target 'NYTExampleApp' do 
 
 	pod 'Kingfisher'
-  
+
+  target 'NYTExampleAppTests' do
+          inherit! :search_paths
+          pod 'Kingfisher'
+      end
 end
